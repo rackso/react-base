@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:dev": "./node_modules/webpack/bin/webpack.js --node development",
-    "build:prod": "./node_modules/webpack/bin/webpack.js --node production",
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --progress --port 1111"
+    "build:dev": "webpack --node development",
+    "build:prod": "webpack --node production",
+    "start": "webpack-dev-server --inline --progress --port 1111"
   },
   "keywords": [],
   "author": "",
